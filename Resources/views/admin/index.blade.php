@@ -2,11 +2,11 @@
 
 @section('title', 'CoffeeBasic')
 @section('actions')
-    <li>
+    {{-- <li>
         <a href="{{ url('/coffeebasic/admin/create') }}">
             <i class="ti-plus"></i>
             Add New</a>
-    </li>
+    </li> --}}
 @endsection
 @section('content')
 

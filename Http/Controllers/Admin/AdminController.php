@@ -3,6 +3,7 @@
 namespace Modules\CoffeeBasic\Http\Controllers\Admin;
 
 use App\Contracts\Controller;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 /**
@@ -87,6 +88,7 @@ class AdminController extends Controller
 
 
     public function sell(){
-        
+        $users = User::all();
+        return view('coffeebasic::admin.sell.index',compact("users"));
     }
 }
