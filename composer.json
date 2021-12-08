@@ -1,0 +1,31 @@
+{
+    "name": "VENDOR/coffeebasic-module",
+    "type": "phpvms-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\CoffeeBasic\\Providers\\AppServiceProvider",
+                "Modules\\CoffeeBasic\\Providers\\EventServiceProvider",
+                "Modules\\CoffeeBasic\\Providers\\RouteServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\CoffeeBasic\\": "."
+        }
+    }
+}

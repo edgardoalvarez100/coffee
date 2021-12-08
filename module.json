@@ -1,0 +1,16 @@
+{
+    "name": "CoffeeBasic",
+    "alias": "coffeebasic",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\CoffeeBasic\\Providers\\AppServiceProvider",
+        "Modules\\CoffeeBasic\\Providers\\EventServiceProvider",
+        "Modules\\CoffeeBasic\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
